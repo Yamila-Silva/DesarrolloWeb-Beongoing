@@ -1,0 +1,206 @@
+/* Paleta de colores primaria
+    RGB 62, 65, 244 Palatinate Blue
+    62, 244, 180 Aquamarine
+    244, 244, 244 White smoke
+    #000000 Black
+    Paleta de colores secundaria
+    RGB 255, 0, 255 Fuchsia
+    63, 188, 244 Deep Sky Blue
+    252, 174, 0 Orange web
+    */
+
+/* Tipografia  All Round Gothic  Demi - VInculo la la tipografia desde una fuente externa*/
+
+@import url(https://db.onlinewebfonts.com/c/c25432bd2c16dfe9cbff2d2968e73fcb?family=All+Round+Gothic+W01+Demi);
+
+html{
+    font-family: "All Round Gothic W01 Demi";
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   }
+
+/* HEADER */
+
+header {
+    background-color: rgb(244, 244, 244);
+    
+}
+
+header img{
+    width: 30%;
+    font-weight: 900px;
+    margin: 2%;
+}
+
+/*NAVBAR*/
+
+nav ul{
+    width: 955px;
+    justify-content: right;  
+}
+
+nav ul li {
+    display: flex;
+    padding: 2%;
+    
+
+}
+
+.enlace-menu {
+    text-decoration: none;
+    font-size: xx-large;
+    color:black;
+}
+
+.enlace-menu:hover {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+/* BANNER */
+
+.banner{
+    background-image: url(../Img/Nosomosunaagencia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10%;
+   
+}
+
+/* IMAGENES EN BODY */
+body{
+    background-color: rgb(62, 65, 244);
+    color: rgb(62, 244, 180);
+    font-size: 2.5rem;
+}
+
+main {
+    text-align: center;
+    
+}
+
+main img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+/* CONTENIDO DEL MAIN */ 
+
+
+ h1{
+    color: rgb(244, 244, 244);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+h2{
+    color: rgb(62, 244, 2180);
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+
+/* ESPACIOS */ 
+.espacioentreservicios {
+    padding-bottom: 5%;
+}
+
+.nuestrosservicios {
+    font-size: 220%;
+    color: rgb(62, 244, 180);
+
+}
+
+/* CONTACTO */
+label {
+    display: block;
+
+}
+
+.form {
+padding-left: 5%;
+}
+
+textarea {
+    width: 80%;
+}
+.comentariosdecontacto {
+    padding-top: 5%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 1%;
+
+}
+
+.aceptoterminosycondiciones {
+  text-align: center;
+  padding-bottom: 5%;
+  color: rgb(182, 175, 175);
+}
+.textoconmail {
+    font-size: 120%;
+    color: rgb(244, 244, 244);
+    
+}
+
+
+/* IFRAME */
+iframe{
+    width: 100%;
+    height: 70%px;
+    padding-top: 0,5%;
+  }
+
+/* FOOTER */
+
+footer a img{
+    width: 5%;
+    margin-bottom: 30px;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(244, 244, 244);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textoblogyquienessomos {
+margin-left: 10%;
+margin-right: 10%;
+text-align: justify;
+}
+
+
+.column {
+    width: 100%;
+  }
+  
+  /*Mobile*/
+
+  @media only screen and (mas-width: 480px)  {
+    body{
+        width: 100%;
+    } 
+
+  }
+
+ 
