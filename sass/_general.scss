@@ -1,0 +1,63 @@
+    /* VARIABLES */
+
+    /* Paleta de colores primaria
+    RGB 62, 65, 244 Palatinate Blue
+    62, 244, 180 Aquamarine
+    244, 244, 244 White smoke
+    #000000 Black */
+    $palatineblue: rgb(62, 65, 244);
+    $aquamarine: rgb(62, 244, 180);
+    $whitesmoke: rgb(244, 244, 244);
+    $black: #000000;
+    
+    /*Paleta de colores secundaria
+        RGB 255, 0, 255 Fuchsia
+        63, 188, 244 Deep Sky Blue
+        252, 174, 0 Orange web */
+    $fuchsia: rgb(255, 0, 255);
+    $skyblue: rgb(63, 188, 244);
+    $orangeweb: rgb(252, 174, 0);
+    
+    /* Tipografia  All Round Gothic  Demi - Vinculo la tipografia desde una fuente externa*/
+    $font: "All Round Gothic W01 Demi";
+    @import url(https://db.onlinewebfonts.com/c/c25432bd2c16dfe9cbff2d2968e73fcb?family=All+Round+Gothic+W01+Demi);
+
+   
+
+     /* Estilos para todos los dispositivos */
+
+    /* Mobile */
+    @media only screen and (max-width: 480px) { 
+        body {
+          font-size: 14px;
+          width: 100%;
+        }
+    }
+  
+     /* Tablet */
+    @media only screen and (min-width: 481px) and (max-width: 978px) { 
+        body {
+            font-size: 16px;
+            width: 100%;
+        }
+     }
+  
+     /* Desktop */
+    @media only screen and (min-width: 979px) { 
+        body {
+            font-size: 18px; 
+            width: 100%;
+          }
+      }
+
+
+  
+      /* ANIMACION */
+     @keyframes fadeIn {
+        from {
+          opacity: 0; /* Comienza con opacidad 0 (invisible) */
+        }
+        to {
+          opacity: 1; /* Termina con opacidad 1 (totalmente visible) */
+        }
+       }
