@@ -29,35 +29,31 @@
     /* Mobile */
     @media only screen and (max-width: 480px) { 
         body {
-          font-size: 14px;
-          width: 100%;
+          font-size: 2rem;
         }
     }
   
      /* Tablet */
     @media only screen and (min-width: 481px) and (max-width: 978px) { 
         body {
-            font-size: 16px;
-            width: 100%;
+            font-size: 2.5rem;
         }
-     }
+    }
   
      /* Desktop */
     @media only screen and (min-width: 979px) { 
         body {
-            font-size: 18px; 
-            width: 100%;
+            font-size: 3rem;
           }
-      }
-
+    }
 
   
       /* ANIMACION */
-     @keyframes fadeIn {
+    @keyframes fadeIn {
         from {
           opacity: 0; /* Comienza con opacidad 0 (invisible) */
         }
         to {
           opacity: 1; /* Termina con opacidad 1 (totalmente visible) */
         }
-       }
+    }
